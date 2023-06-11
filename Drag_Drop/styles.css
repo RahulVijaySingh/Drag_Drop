@@ -1,0 +1,25 @@
+.container {
+    width: 200px;
+    height:100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .item {
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: grab;
+  }
+  
+  .item.dragging {
+    opacity: 0.5;
+  }
+  
+  #successMessage {
+    color: green;
+    display: none;
+  }
+  
